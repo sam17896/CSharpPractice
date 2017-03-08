@@ -20,7 +20,15 @@ namespace CSharpPractice
         private void button1_Click(object sender, EventArgs e)
         {
             ListViewP lvp = new ListViewP();
+            lvp.MdiParent = this;
             lvp.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            TreeView tv = new TreeView();
+            tv.MdiParent = this;
+            tv.Show();
         }
     }
 }
