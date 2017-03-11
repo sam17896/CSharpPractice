@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace CSharpPractice
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
         }
@@ -72,6 +72,28 @@ namespace CSharpPractice
             PGB pgb = new PGB();
             pgb.MdiParent = this;
             pgb.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            PaintProgram.Form1 f = new PaintProgram.Form1();
+            f.MdiParent = this;
+            f.Show();
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            WindowsFormsApplication3.Form1 f = new WindowsFormsApplication3.Form1();
+            f.MdiParent = this;
+            f.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            simpleCalculator.Form1 f = new simpleCalculator.Form1();
+            f.MdiParent = this;
+            f.Show();
         }
     }
 }
