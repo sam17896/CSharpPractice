@@ -44,11 +44,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ColorBlends.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorBlends.Designer.cs">
+      <DependentUpon>ColorBlends.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drawstring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drawstring.Designer.cs">
+      <DependentUpon>Drawstring.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Drawing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Drawing.Designer.cs">
+      <DependentUpon>Drawing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PGB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PGB.Designer.cs">
+      <DependentUpon>PGB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LGB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LGB.Designer.cs">
+      <DependentUpon>LGB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Penp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Penp.Designer.cs">
+      <DependentUpon>Penp.cs</DependentUpon>
     </Compile>
     <Compile Include="TreeView.cs">
       <SubType>Form</SubType>
@@ -64,11 +100,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ColorBlends.resx">
+      <DependentUpon>ColorBlends.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Drawstring.resx">
+      <DependentUpon>Drawstring.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Drawing.resx">
+      <DependentUpon>Drawing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LGB.resx">
+      <DependentUpon>LGB.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ListViewP.resx">
       <DependentUpon>ListViewP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Penp.resx">
+      <DependentUpon>Penp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PGB.resx">
+      <DependentUpon>PGB.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
