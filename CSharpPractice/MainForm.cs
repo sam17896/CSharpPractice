@@ -95,5 +95,12 @@ namespace CSharpPractice
             f.MdiParent = this;
             f.Show();
         }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            Mid2 mid2 = new Mid2();
+            mid2.MdiParent = this;
+            mid2.Show();
+        }
     }
 }

@@ -62,6 +62,12 @@
     <Compile Include="Calculator.designer.cs">
       <DependentUpon>Calculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mid2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mid2.Designer.cs">
+      <DependentUpon>Mid2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Notepad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -126,6 +132,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mid2.resx">
+      <DependentUpon>Mid2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Notepad.resx">
       <DependentUpon>Notepad.cs</DependentUpon>
