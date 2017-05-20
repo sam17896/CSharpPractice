@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using CSharpPractice.ServiceReference2;
 
 namespace CSharpPractice
 {
@@ -101,6 +102,13 @@ namespace CSharpPractice
             Mid2 mid2 = new Mid2();
             mid2.MdiParent = this;
             mid2.Show();
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            var cal = new CalculatorClient();
+            MessageBox.Show(cal.AddString("Hello"));
+
         }
     }
 }

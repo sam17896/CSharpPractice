@@ -69,7 +69,7 @@ namespace CSharpPractice
             if (richTextBox1.SelectionFont.Italic == true)
                 richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, FontStyle.Regular);
             else
-                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, FontStyle.Italic);
+                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, FontStyle.Italic | FontStyle.Bold);
         }
 
         private void button8_Click(object sender, EventArgs e)
@@ -77,12 +77,13 @@ namespace CSharpPractice
             if (richTextBox1.SelectionFont.Underline == true)
                 richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, FontStyle.Regular);
             else
-                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, FontStyle.Underline);
+                richTextBox1.SelectionFont = new Font(richTextBox1.SelectionFont, FontStyle.Strikeout);
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             linkLabel1.LinkVisited = true;
+            linkLabel1.LinkArea = new LinkArea(5, 7);
             System.Diagnostics.Process.Start("notepad");
         }
 
@@ -112,9 +113,9 @@ namespace CSharpPractice
 
         private void button10_Click(object sender, EventArgs e)
         {
-            listBox1.Items.RemoveAt(listBox1.SelectedIndex);
-            comboBox1.Items.Remove(comboBox1.SelectedItem);
-            checkedListBox1.Items.Remove(checkedListBox1.SelectedItem);
+           // listBox1.Items.RemoveAt(listBox1.SelectedIndex);
+           // comboBox1.Items.Remove(comboBox1.SelectedItem);
+            checkedListBox1.Items.Remove("Chutiye");
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -242,6 +243,18 @@ namespace CSharpPractice
             {
                 treeView1.Nodes.Remove(tn);
             }
+            
         }
-    }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            listView1.Columns.Add("New Column");
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+   }
 }
