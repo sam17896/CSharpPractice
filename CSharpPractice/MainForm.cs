@@ -122,5 +122,11 @@ namespace CSharpPractice
         {
             
         }
+
+        private void button16_Click_1(object sender, EventArgs e)
+        {
+            DataGridView dgv = new DataGridView();
+            dgv.Show();
+        }
     }
 }

@@ -44,19 +44,23 @@ namespace CSharpPractice
                 DataSet ds = new DataSet();
                 da.Fill(ds);
 
+                OleDbDataReader dr = cmd.ExecuteReader();
+
+               
+                
                 foreach (DataRow row in ds.Tables[0].Rows)
                 {
                     listView2.Items.Add(row["name"].ToString());
                 }
 
-                OleDbDataReader dr = cmd.ExecuteReader();
-
+                
                 while (dr.Read())
                 {
                     listView1.Items.Add(dr[1].ToString());
                 }
                 dr.Close();
                 conn.Close();
+
             }
         }
 
