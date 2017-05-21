@@ -11,6 +11,7 @@
     <AssemblyName>CSharpPractice</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -52,6 +53,12 @@
     <Compile Include="ColorBlends.Designer.cs">
       <DependentUpon>ColorBlends.cs</DependentUpon>
     </Compile>
+    <Compile Include="Db.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Db.Designer.cs">
+      <DependentUpon>Db.cs</DependentUpon>
+    </Compile>
     <Compile Include="Drawstring.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +71,7 @@
     <Compile Include="Calculator.designer.cs">
       <DependentUpon>Calculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="IService1.cs" />
     <Compile Include="Mid2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +125,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Service1.cs" />
     <Compile Include="TreeView.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -133,6 +142,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="ColorBlends.resx">
       <DependentUpon>ColorBlends.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db.resx">
+      <DependentUpon>Db.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Drawstring.resx">
       <DependentUpon>Drawstring.cs</DependentUpon>

@@ -110,5 +110,11 @@ namespace CSharpPractice
             MessageBox.Show(cal.AddString("Hello"));
 
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Db db = new Db();
+            db.show();
+        }
     }
 }
