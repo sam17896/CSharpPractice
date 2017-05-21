@@ -114,7 +114,13 @@ namespace CSharpPractice
         private void button15_Click(object sender, EventArgs e)
         {
             Db db = new Db();
-            db.show();
+            db.MdiParent = this;
+            db.Show();
+        }
+
+        private void button16_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

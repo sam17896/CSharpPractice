@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpPractice", "CSharpPra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLibrary1", "WcfServiceLibrary1\WcfServiceLibrary1.csproj", "{B4349DDD-806D-49CE-B0EE-4DBB158CAC83}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{B5161FCF-F99E-4F5E-A27E-2B30A84F6A99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{B4349DDD-806D-49CE-B0EE-4DBB158CAC83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4349DDD-806D-49CE-B0EE-4DBB158CAC83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4349DDD-806D-49CE-B0EE-4DBB158CAC83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5161FCF-F99E-4F5E-A27E-2B30A84F6A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5161FCF-F99E-4F5E-A27E-2B30A84F6A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5161FCF-F99E-4F5E-A27E-2B30A84F6A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5161FCF-F99E-4F5E-A27E-2B30A84F6A99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
